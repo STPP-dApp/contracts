@@ -1,0 +1,17 @@
+{
+  "merkleRoot": "0x68fbb758f380022c15e7546789e5a271ce2f05778641a5302143ff3872e0a9d3",
+  "allocations": {
+    "0x1cbd3b2770909d4e10f157cabc84c7264073c9ec": {
+      "bonusQty": "20000000000000000000",
+      "merkleProof": []
+    }
+  },
+  "summary": {
+    "totalEarlyParticipants": 1,
+    "totalRequestedBonus": "20000000000000000000",
+    "totalFinalBonus": "20000000000000000000",
+    "scalingFactor": "10000",
+    "bonusReserve": "1000000000000000000000"
+  },
+  "ipfsCID": "QmbEVkTTSYwVFcqvT7u4dVeQjCmJvKMguyzFfkkX9oiria"
+}
