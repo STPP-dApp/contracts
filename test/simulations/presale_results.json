@@ -1,0 +1,167 @@
+{
+  "runs": [
+    {
+      "run": 0,
+      "participants": 48,
+      "vri": 0.04477718352743168,
+      "gini": 0.34409909252774207,
+      "averageHoldMonths": 5.180529610339506,
+      "speculativeShare": 10.178066726132805,
+      "vriTradingPhase": 0.04740287602820978,
+      "vriVisibleBidStress": 0.04919915531978118
+    },
+    {
+      "run": 1,
+      "participants": 48,
+      "vri": 0.044857046188090464,
+      "gini": 0.3309941245076653,
+      "averageHoldMonths": 5.562266894933128,
+      "speculativeShare": 8.614972033321674,
+      "vriTradingPhase": 0.047402876028209764,
+      "vriVisibleBidStress": 0.05407651195278192
+    },
+    {
+      "run": 2,
+      "participants": 48,
+      "vri": 0.044616978421596794,
+      "gini": 0.3311747515778867,
+      "averageHoldMonths": 4.795435948752572,
+      "speculativeShare": 14.67691342013385,
+      "vriTradingPhase": 0.047402876028209785,
+      "vriVisibleBidStress": 0.0499513921156035
+    },
+    {
+      "run": 3,
+      "participants": 48,
+      "vri": 0.04469715275116823,
+      "gini": 0.32972945886230187,
+      "averageHoldMonths": 5.890275567451132,
+      "speculativeShare": 7.83016986092341,
+      "vriTradingPhase": 0.04740287602820979,
+      "vriVisibleBidStress": 0.05339196088517059
+    },
+    {
+      "run": 4,
+      "participants": 48,
+      "vri": 0.0446169784215968,
+      "gini": 0.3310082168365647,
+      "averageHoldMonths": 4.948582489390432,
+      "speculativeShare": 9.397512639736382,
+      "vriTradingPhase": 0.047402876028209744,
+      "vriVisibleBidStress": 0.051977416133342856
+    },
+    {
+      "run": 5,
+      "participants": 48,
+      "vri": 0.04461697842159678,
+      "gini": 0.35115380349078196,
+      "averageHoldMonths": 5.058496158050411,
+      "speculativeShare": 10.562874136023334,
+      "vriTradingPhase": 0.04740287602820976,
+      "vriVisibleBidStress": 0.05016057258409723
+    },
+    {
+      "run": 6,
+      "participants": 48,
+      "vri": 0.04445629118188564,
+      "gini": 0.34496881700524895,
+      "averageHoldMonths": 5.368922534079219,
+      "speculativeShare": 12.203915414372808,
+      "vriTradingPhase": 0.047402876028209785,
+      "vriVisibleBidStress": 0.05037952137827485
+    },
+    {
+      "run": 7,
+      "participants": 48,
+      "vri": 0.044697152751168236,
+      "gini": 0.35147883025090376,
+      "averageHoldMonths": 4.493632844650206,
+      "speculativeShare": 13.630058376506588,
+      "vriTradingPhase": 0.047402876028209785,
+      "vriVisibleBidStress": 0.05101740067407185
+    },
+    {
+      "run": 8,
+      "participants": 48,
+      "vri": 0.044616978421596794,
+      "gini": 0.3768512491976823,
+      "averageHoldMonths": 4.673404087898663,
+      "speculativeShare": 13.97503459600401,
+      "vriTradingPhase": 0.047402876028209785,
+      "vriVisibleBidStress": 0.05425364418866986
+    },
+    {
+      "run": 9,
+      "participants": 48,
+      "vri": 0.044777183527431645,
+      "gini": 0.33164784589219565,
+      "averageHoldMonths": 5.000317869084362,
+      "speculativeShare": 9.401672651464462,
+      "vriTradingPhase": 0.047402876028209785,
+      "vriVisibleBidStress": 0.051255932485109665
+    }
+  ],
+  "aggregate": {
+    "averageVRI": 0.044672992361356315,
+    "averageGini": 0.34231061901489734,
+    "averageHoldMonths": 5.097186400462963,
+    "averageSpeculativeShare": 11.047118985461932,
+    "averageVriTradingPhase": 0.047402876028209785,
+    "averageVriVisibleBidStress": 0.05156635077169035,
+    "stdVRI": 0.00011365860438514423,
+    "stdGini": 0.014971725219328397,
+    "stdHoldMonths": 0.4208407138594092,
+    "stdSpeculativeShare": 2.413857941149009,
+    "stdVriTradingPhase": 1.8358587643600646e-17,
+    "stdVriVisibleBidStress": 0.0017956264736083431
+  },
+  "benchmarkComparisons": [
+    {
+      "platform": "Balancer",
+      "deltaVRI": -0.03532700763864369,
+      "deltaGini": -0.15768938098510266,
+      "deltaHoldMonths": 3.097186400462963,
+      "deltaSpeculativeShare": -38.952881014538065
+    },
+    {
+      "platform": "Fjord",
+      "deltaVRI": -0.025327007638643692,
+      "deltaGini": -0.05768938098510268,
+      "deltaHoldMonths": 1.597186400462963,
+      "deltaSpeculativeShare": -23.952881014538068
+    },
+    {
+      "platform": "CoinList",
+      "deltaVRI": -0.015327007638643683,
+      "deltaGini": -0.25768938098510263,
+      "deltaHoldMonths": 2.097186400462963,
+      "deltaSpeculativeShare": -28.952881014538068
+    },
+    {
+      "platform": "Hyperliquid",
+      "deltaVRI": -0.04532700763864368,
+      "deltaGini": -0.3576893809851026,
+      "deltaHoldMonths": 3.847186400462963,
+      "deltaSpeculativeShare": -38.952881014538065
+    },
+    {
+      "platform": "Pump.fun",
+      "deltaVRI": -0.07532700763864368,
+      "deltaGini": -0.3576893809851026,
+      "deltaHoldMonths": 3.897186400462963,
+      "deltaSpeculativeShare": -48.952881014538065
+    }
+  ],
+  "literatureChecks": {
+    "stressVriGtTradingAgg": true,
+    "specLtBalancer50": true,
+    "specLtCoinlist40": true,
+    "specLtHyper50": true,
+    "specLtPump60": true,
+    "specNearFjord35": true,
+    "holdGtFjordMax": true,
+    "holdGtCoinlistMax": true,
+    "holdGtBalancerMax": true
+  },
+  "runsWithStressVriHigher": 10
+}
